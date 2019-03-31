@@ -1,0 +1,9 @@
+server:
+  port: 8082
+spring:
+  application:
+    name: service-hi   #服务名
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8081/eureka/   #注册中心的地址
